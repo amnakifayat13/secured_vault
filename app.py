@@ -97,7 +97,8 @@ def show_signup():
 
 # Login Page
 def show_login():
-    st.title("🔐 Login")
+    st.title("🔐Secured Vault")
+    st.title("🔑 Login")
     user_name = st.text_input("Username")
     password = st.text_input("Password", type="password")
 
